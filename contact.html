@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/edfa7ba126.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="content-wrap">
+            <div class="navigation1">
+                <nav>
+                    <ul>
+                        <li><a href="#">Про Нас</a></li>
+                        <li><a href="#">Відстежити замовлення</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                        <li><a href="products.html">Товари</a></li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+            <div class="line"></div>
+            <div class="navigation">
+                <i class="fa-solid fa-mobile-button logo" "></i>
+                <div class="logo-text">СмартГаджети</div>
+                <a href="#all" class="bg-menu">Всі Товари<img src="img/arrow.png" alt="arrow"></a>
+                <nav>
+                    <ul>
+                        <li class="li-item"><a href="index.html">Home</a></li>
+                        <li class="li-item"><a href="#services">Послуги</a></li>
+                        <li class="li-item"><a href="products.html">Товари 
+                        </a></li>
+                        <li class="li-item"><a href="#home">Аксесуари</a></li>
+                        <li class="li-item"><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="icons">
+                    <div class="icon-number">
+                        <img src="img/icon-search.png" alt="search">
+                    </div>
+                    <div class="icon-number">
+                        <p class="number">3</p>
+                        <img src="img/icon-heart.png" alt="heart">
+                    </div>
+                    <div class="icon-number">
+                        <p class="number">1</p>
+                        <img src="img/icon-shoppingcart.png" alt="shoppingcart">
+                    </div>
+                </div> 
+            </div>
+    </header>
+    <div class="main-block">
+        <div class="d-flex">
+            <div class="main-photo">
+                <img src="img/bluelines.png" alt="lines">
+            </div>
+            <div class="main-text">
+                <div class="main-title">Контактна Інформація</div>
+                <div class="description">
+                    Ви можете зв'язатися з нами у будь-який зручний спосіб
+                </div>
+                <div class="contact-info">
+                    <ul>
+                        <div class="d-flex">
+                            <li class="phone-icon"><i class="fa-solid fa-phone"></i></li>
+                            <div class="phone-text">096 346-23-45</div>
+                        </div>
+                        <div class="d-flex">
+                            <li class="email-icon"><i class="fa-regular fa-envelope"></i></li>
+                            <div class="email-text">info.tel@gmail.com</div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="description">
+                    На зв'язку з вами щодня з 9:00 до 21:00
+                </div>
+                <img src="img/Social.png" alt="">
+                <br>
+                <button class="myButton">Зв'язатися з нами</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+            <header class="modal__header">
+              <h2 class="modal__title" id="modal-1-title">
+                Зв'яжіться з нами
+              </h2>
+              <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+            </header>
+            <main class="modal__content" id="modal-1-content">
+              <p>
+                Введіть ваш номер телефону :
+              </p>
+              <label for="phone">Номер телефону</label>
+					<input type="tel" id="phone" name="phone" placeholder="+380(99)999-99-99">
+            </main>
+            <footer class="modal__footer">
+              <button class="modal__btn modal__btn-primary" data-micromodal-close aria-label="Close this dialog window">Продовжити</button>
+              <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Закрити</button>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <button onclick="scrollToTop()" id="scrollBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <footer>
+        <div class="content-wrap">
+            <div class="end-block">
+                <div class="d-flex">
+                    <div class="end-left">
+                        <ul>
+                            <li class="end-logo">
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-mobile-button logo"></i>
+                                    <div class="logo-text">СмартГаджети</div>
+                                </div>
+                            </li>
+                            <li class="end-text">Шукайте найновіші та найпопулярніші моделі смартфонів у нашому магазині.</li>
+                            <li class="end-socials"><img src="img/Social.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="end-center">
+                        <div class="end-center-title">Корисні посилання</div>
+                            <div class="d-flex">
+                                <div class="end-nav-left">
+                                    <ul>
+                                        <li>Політика</li>
+                                        <li>Контакти</li>
+                                        <li>Подарункові сертифікати</li>
+                                        <li>Знижки</li>
+                                    </ul>
+                                </div>
+                                <div class="end-nav-right">
+                                    <ul>
+                                        <li>Iphone</li>
+                                        <li>Аксесуари</li>
+                                        <li>Годинники</li>
+                                        <li>Навушники</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="end-right">
+                        <div class="end-right-title">Підписуйтеся на наші соціальні мережі</div>
+                        <div class="end-right-text">Щоб не пропустити наші новинки. </div>
+                        <a href="#" class="main-button">Підписатися</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bock">
+                <div class="d-flex footer-direction">
+                    <div class="left-navigation">
+                        <ul>
+                            <li>Payment</li>
+                            <li>Shipping & Returns</li>
+                            <li>Gift Cards</li>
+                            <li>Privacy Policy</li>
+                            <li>Stockists</li>
+                        </ul>
+                    </div>
+                    <div class="right-navigation">
+                        <ul>
+                            <li><img src="img/Paypal.png" alt="payment"></li>
+                            <li><img src="img/Visa.png" alt="payment"></li>
+                            <li><img src="img/MasterCard.png" alt="payment"></li>
+                            <li><img src="img/AmericanExpress.png" alt="payment"></li>
+                            <li><img src="img/Discover.png" alt="payment"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
